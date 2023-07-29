@@ -1,7 +1,7 @@
 
 import styled from 'styled-components'
 import React from 'react'
-
+import Button from './Button'
 
 const Card = (props) => {
   return (
