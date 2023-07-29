@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import CardsList from '../molecules/CardsList'
+import CardsList from '../molecules/CardList'
 
 const Products = () => {
   return (

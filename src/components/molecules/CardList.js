@@ -7,7 +7,7 @@ import Card from '../atoms/Card'
     id:1,
     img:"https://s3.amazonaws.com/assets.lavegadelivery.cl/web-dist/fotos/productos/54/webp/kiwi_1_kg_9538_1200x1200.webp",
     title:"Kiwi",
-    precio: "$1.200",
+    precio: "$980",
     
   },
   {
@@ -37,6 +37,7 @@ import Card from '../atoms/Card'
     precio: "$529",
 
   },
+  
 ]
 
 const CardsList = () => {
