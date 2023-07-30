@@ -40,7 +40,7 @@ const Producto = styled.h3`
 line-height: 5;
 margin-left: 1.3rem;
 font-size: 1.1rem;
-color: rgb(60, 102, 32);
+color: rgb(15, 77, 46);
 
 
 `
@@ -56,10 +56,10 @@ border-radius: 5px;
 const Peso = styled.a
 `
 font-size: 0.9rem;
-color: rgba(165, 166, 168);
+color: rgb(152, 155, 160);
 background-color: rgb(233, 233, 233);
 padding: 5px 15px;
-margin-right: 3.5rem;
+margin-right: 2.9rem;
 margin-left: 1.3rem;
 border-radius: 5px;
 
