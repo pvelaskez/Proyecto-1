@@ -7,13 +7,16 @@ const Card = (props) => {
   return (
     <>
     <Cards>
-        <Image src= {props.data.img} alt=""/>
+        <Image src= {props.data.img} alt="productos"/>
+        
         <figcaption>
             <Producto>{props.data.title}</Producto>
         </figcaption>
                                                 
             <Peso>1 kg.</Peso><Precio >{props.data.precio}</Precio>
         <Button />
+        
+
     </Cards>
          
     </>

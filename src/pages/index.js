@@ -26,7 +26,7 @@ export default function Home() {
       </main>
       <section>
         <Products/>
-       
+              
       </section>
       <footer>
        
