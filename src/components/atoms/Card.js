@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Card = (props) => {
   return (
-    
+    <>
     <Cards>
         <Image src= {props.data.img} alt=""/>
         <figcaption>
@@ -15,6 +15,8 @@ const Card = (props) => {
             <Peso>1 kg.</Peso><Precio >{props.data.precio}</Precio>
         <Button />
     </Cards>
+         
+    </>
   )
 }
 
@@ -47,7 +49,6 @@ color: rgb(15, 77, 46);
 const Precio = styled.a
 `
 font-size: 1.3rem;
-font-weight: 600;
 color: rgb(255, 129, 38);
 border-radius: 5px;
 

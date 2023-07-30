@@ -17,6 +17,7 @@ const Button = () => {
         margin-top: 10px;
         margin-left: 20px;
         font-weight: bold;
+        font-family: 'Outfit', sans-serif;
         
     }
 
