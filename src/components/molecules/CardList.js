@@ -57,8 +57,15 @@ const CardsList = () => {
       padding-top: 50px;
       padding-bottom: 50px;
       background-color: white;
+      }
 
-    }
+      @media screen and (max-with: 768px) { 
+        section {
+            display:grid; 
+            grid-template-columns: repeat (2, 1fr);
+            width: 550px; 
+          }
+      }
     `}
 
     </style>

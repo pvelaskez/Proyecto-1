@@ -7,7 +7,7 @@ const Button = () => {
     <button>Agregar</button>
     <style jsx>{`
     button {
-        color: rgb(15, 77, 46);
+        color: rgb(3, 84, 77);
         background-color:  rgba(173, 227, 115);
         padding: 10px 50px;
         border-radius: 5px;

@@ -42,7 +42,7 @@ const Producto = styled.h3`
 line-height: 5;
 margin-left: 1.3rem;
 font-size: 1.1rem;
-color: rgb(15, 77, 46);
+color: rgb(3, 84, 77);
 
 
 `

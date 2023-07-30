@@ -104,3 +104,12 @@ a {
     color-scheme: dark;
   }
 }
+
+@media screen and (max-with: 768px) { 
+  section {
+      display:grid; 
+      grid-template-columns: repeat (2, 1fr);
+      width: 550px; 
+    }
+}
+
