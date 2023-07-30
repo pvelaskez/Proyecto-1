@@ -37,7 +37,6 @@ import Card from '../atoms/Card'
     precio: "$529",
 
   },
-  
 ]
 
 const CardsList = () => {
@@ -55,7 +54,8 @@ const CardsList = () => {
       display: flex;
       justify-content:center;
       justify-content:space-around;
-      margin-top: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       background-color: white;
 
     }

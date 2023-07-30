@@ -5,7 +5,7 @@ import CardsList from '../molecules/CardList'
 const Products = () => {
   return (
     <>
-    <Product>Products
+    <Product>
 
     <CardsList/>
     

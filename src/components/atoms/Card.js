@@ -12,7 +12,7 @@ const Card = (props) => {
             <Producto>{props.data.title}</Producto>
         </figcaption>
                                                 
-            <Precio >{props.data.precio}</Precio><Peso>1 kg.</Peso>
+            <Peso>1 kg.</Peso><Precio >{props.data.precio}</Precio>
         <Button />
     </Cards>
   )
@@ -23,12 +23,9 @@ export default Card
 const Cards = styled.figure`
 width: 200px;
 height: 310px;
-border: 2px solid white;
+border: 2px;
 border-radius: 5px;
 background-color: white;
-margin-left: 0;
-margin-right: 0;
-
 
 `
 //box-shadow: 2px 2px 10px
@@ -40,17 +37,20 @@ object-fit:cover;
 `
 
 const Producto = styled.h3`
-line-height: 2;
-margin-left: 1.5rem;
-font-size: 1rem;
+line-height: 5;
+margin-left: 1.3rem;
+font-size: 1.1rem;
+color: rgb(60, 102, 32);
+
+
 `
 const Precio = styled.a
 `
-font-size: 1.2rem;
-margin-right: 3.5rem;
-margin-left: 1.7rem;
-color: rgba(97, 149, 102);
-border-radius: 5px;git
+font-size: 1.3rem;
+font-weight: 600;
+color: rgb(255, 129, 38);
+border-radius: 5px;
+
 
 `
 const Peso = styled.a
@@ -58,7 +58,9 @@ const Peso = styled.a
 font-size: 0.9rem;
 color: rgba(165, 166, 168);
 background-color: rgb(233, 233, 233);
-padding: 5px 19px;
+padding: 5px 15px;
+margin-right: 3.5rem;
+margin-left: 1.3rem;
 border-radius: 5px;
 
 `
