@@ -54,6 +54,7 @@ const CardsList = () => {
       display: flex;
       justify-content:center;
       justify-content:space-around;
+      padding-left: 50px;
       padding-top: 50px;
       padding-bottom: 50px;
       background-color: white;
@@ -61,6 +62,7 @@ const CardsList = () => {
       grid-template-columns: repeat(
         auto-fit,
         minmax(150px,1fr)
+        
       )
 
 
