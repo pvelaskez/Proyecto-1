@@ -7,7 +7,7 @@ const Card = (props) => {
   return (
     <>
 
-    <Cards>
+        <Cards>
         <Image src= {props.data.img} alt=""/>
         <figcaption>
             <Producto>{props.data.title}</Producto>
@@ -15,7 +15,7 @@ const Card = (props) => {
                                                 
             <Peso>1 kg.</Peso><Precio >{props.data.precio}</Precio>
         <Button />   
-    </Cards>
+        </Cards>
          
 
     </>
@@ -27,9 +27,11 @@ export default Card
 const Cards = styled.figure`
 width: 200px;
 height: 350px;
-border: 1px solid transparent;
 border-radius: 5px;
 background-color: white;
+border: 1px solid transparent;
+
+
 
 
 `
@@ -39,6 +41,7 @@ const Image = styled.img`
 width: 100%;
 height: 50%;
 object-fit:cover;
+
 `
 
 const Producto = styled.h3`
@@ -66,5 +69,7 @@ padding: 5px 15px;
 margin-right: 2.9rem;
 margin-left: 1.3rem;
 border-radius: 5px;
+
+
 
 `
