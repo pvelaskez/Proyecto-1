@@ -5,9 +5,9 @@ import Card from '../atoms/Card'
 const Db = [
   {
     id: 1,
-    img: "https://cdnx.jumpseller.com/newen-verde1/image/33380034/resize/1200/1200?1679611171",
-    title: "Limón",
-    precio: "$399",
+    img: "https://img.freepik.com/fotos-premium/aguacate-aislado-blanco_62856-4854.jpg",
+    title: "Palta",
+    precio: "$2.590",
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const Db = [
   },
   {
     id: 3,
-    img: "https://cdnx.jumpseller.com/grocery/image/25766567/resize/1200/1200?1658142313",
-    title: "Manzana Verde",
+    img: "https://www.novaplaza.com.pe/wp-content/uploads/2023/02/Mesa-de-trabajo-2-11.jpg",
+    title: "Uva",
     precio: "$663",
 
   },

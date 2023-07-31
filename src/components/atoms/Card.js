@@ -66,7 +66,7 @@ font-size: 0.9rem;
 color: rgb(152, 155, 160);
 background-color: rgb(233, 233, 233);
 padding: 5px 15px;
-margin-right: 2.9rem;
+margin-right: 2.3rem;
 margin-left: 1.3rem;
 border-radius: 5px;
 
