@@ -44,6 +44,7 @@ const Producto = styled.h3`
 line-height: 5;
 margin-left: 2rem;
 font-size: 1.1rem;
+font-weight: 700;
 color: rgb(3, 84, 77);
 
 `
@@ -52,6 +53,7 @@ const Precio = styled.a
 font-size: 1.3rem;
 color: rgb(255, 129, 38);
 border-radius: 5px;
+
 
 
 `
